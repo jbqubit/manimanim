@@ -7,6 +7,9 @@ $ source activate manim
 $ git clone https://github.com/krassowski/jupyter-manim
 $ cd krassowski/jupyter-manim
 $ pip install .
+$ git clone https://github.com/ManimCommunity/manim
+$ cd ManimCommunity/manim
+$ pip install .
 $ python -m ipykernel install --user --name=manim
 $ jupyter lab
 ```
